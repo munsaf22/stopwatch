@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+.timerDisplay{
+  /* border: 2px solid red; */
+  border-radius: 10px;
+ margin: 10px 0;
+ padding: 5px;
+  background-color: rgba(0,0,0,0.9);
+}
+.count{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 550;
+}
+.btn{
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0 10px;
+  background-color:var(--clr);
+  padding: 5px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  border-radius: 20px 40px;
+  color: white;
+ 
+}
+.btn:hover{
+  background-color: black;
+  cursor: pointer;
+}
+h1{
+  font-size: 50px;
+  /* background-color: aqua; */
+ color: black;
+ text-shadow: -2px -2px black;
+
+}

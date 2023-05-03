@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stopwatch</h1>
+      <div class="timerDisplay">
+        <span class="count" id="mins">00</span>
+        <span class="unit">mins</span>
+        <span class="count"  id="secs">00</span>
+        <span class="unit">secs</span>
+        <span class="count" id="msec">00</span>
+        <span class="unit">msec</span>
+      </div>
+      <div class="buttons">
+        <button id="start" class="btn" style="--clr:rgb(17, 76, 17);" onclick="start()">Start</button>
+        <button id="stop" class="btn" style="--clr:rgb(113, 21, 21);" onclick="stop()">Stop</button>
+        <button id="reset" class="btn" style="--clr:rgb(17, 17, 92);" onclick="reset()">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
